@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/SudokuSolver.h
+iostream
+-
+
+C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/main.cpp
+fstream
+-
+iostream
+-
+string
+-
+SudokuSolver.h
+C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/SudokuSolver.h
+
