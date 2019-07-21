@@ -7,7 +7,7 @@
 #ifndef SUDOKUSOLVER_CPP
 #define SUDOKUSOLVER_CPP
 
-#include "SudokuSolver.h"
+#include "../include/SudokuSolver.h"
 
 #include <iostream>
 #include <fstream>

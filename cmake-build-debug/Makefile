@@ -122,59 +122,59 @@ sudoku-solver/fast:
 	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/build
 .PHONY : sudoku-solver/fast
 
-SudokuSolver.obj: SudokuSolver.cpp.obj
+src/SudokuSolver.obj: src/SudokuSolver.cpp.obj
 
-.PHONY : SudokuSolver.obj
-
-# target to build an object file
-SudokuSolver.cpp.obj:
-	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/SudokuSolver.cpp.obj
-.PHONY : SudokuSolver.cpp.obj
-
-SudokuSolver.i: SudokuSolver.cpp.i
-
-.PHONY : SudokuSolver.i
-
-# target to preprocess a source file
-SudokuSolver.cpp.i:
-	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/SudokuSolver.cpp.i
-.PHONY : SudokuSolver.cpp.i
-
-SudokuSolver.s: SudokuSolver.cpp.s
-
-.PHONY : SudokuSolver.s
-
-# target to generate assembly for a file
-SudokuSolver.cpp.s:
-	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/SudokuSolver.cpp.s
-.PHONY : SudokuSolver.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
+.PHONY : src/SudokuSolver.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/SudokuSolver.cpp.obj:
+	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/src/SudokuSolver.cpp.obj
+.PHONY : src/SudokuSolver.cpp.obj
 
-main.i: main.cpp.i
+src/SudokuSolver.i: src/SudokuSolver.cpp.i
 
-.PHONY : main.i
+.PHONY : src/SudokuSolver.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/SudokuSolver.cpp.i:
+	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/src/SudokuSolver.cpp.i
+.PHONY : src/SudokuSolver.cpp.i
 
-main.s: main.cpp.s
+src/SudokuSolver.s: src/SudokuSolver.cpp.s
 
-.PHONY : main.s
+.PHONY : src/SudokuSolver.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/SudokuSolver.cpp.s:
+	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/src/SudokuSolver.cpp.s
+.PHONY : src/SudokuSolver.cpp.s
+
+test/main.obj: test/main.cpp.obj
+
+.PHONY : test/main.obj
+
+# target to build an object file
+test/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/test/main.cpp.obj
+.PHONY : test/main.cpp.obj
+
+test/main.i: test/main.cpp.i
+
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.cpp.i:
+	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/test/main.cpp.i
+.PHONY : test/main.cpp.i
+
+test/main.s: test/main.cpp.s
+
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.cpp.s:
+	$(MAKE) -f CMakeFiles\sudoku-solver.dir\build.make CMakeFiles/sudoku-solver.dir/test/main.cpp.s
+.PHONY : test/main.cpp.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... sudoku-solver
 	@echo ... rebuild_cache
-	@echo ... SudokuSolver.obj
-	@echo ... SudokuSolver.i
-	@echo ... SudokuSolver.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/SudokuSolver.obj
+	@echo ... src/SudokuSolver.i
+	@echo ... src/SudokuSolver.s
+	@echo ... test/main.obj
+	@echo ... test/main.i
+	@echo ... test/main.s
 .PHONY : help
 
 

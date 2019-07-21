@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/SudokuSolver.h
+C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/include/SudokuSolver.h
 iostream
 -
 
-C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/main.cpp
+C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/test/main.cpp
 fstream
 -
 iostream
 -
 string
 -
-SudokuSolver.h
-C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/SudokuSolver.h
+../include/SudokuSolver.h
+C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/include/SudokuSolver.h
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/SudokuSolver.cpp" "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/cmake-build-debug/CMakeFiles/sudoku-solver.dir/SudokuSolver.cpp.obj"
-  "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/main.cpp" "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/cmake-build-debug/CMakeFiles/sudoku-solver.dir/main.cpp.obj"
+  "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/src/SudokuSolver.cpp" "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/cmake-build-debug/CMakeFiles/sudoku-solver.dir/src/SudokuSolver.cpp.obj"
+  "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/test/main.cpp" "C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/cmake-build-debug/CMakeFiles/sudoku-solver.dir/test/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

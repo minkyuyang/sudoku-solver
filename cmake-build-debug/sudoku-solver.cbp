@@ -82,13 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/SudokuSolver.cpp">
+		<Unit filename="C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/include/SudokuSolver.h">
 			<Option target="sudoku-solver"/>
 		</Unit>
-		<Unit filename="C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/SudokuSolver.h">
+		<Unit filename="C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/src/SudokuSolver.cpp">
 			<Option target="sudoku-solver"/>
 		</Unit>
-		<Unit filename="C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/main.cpp">
+		<Unit filename="C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/test/main.cpp">
 			<Option target="sudoku-solver"/>
 		</Unit>
 		<Unit filename="C:/Users/hocke/Desktop/GitHubProjects/sudoku-solver/CMakeLists.txt">
